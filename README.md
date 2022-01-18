@@ -5,4 +5,6 @@
  
  ## Screenshots of the game.<br />
  
- 
+ ![Screenshot (2068)](https://user-images.githubusercontent.com/88572391/149908867-a0801b2f-7958-4bf6-9c99-87583421ed69.png)
+
+<br />
