@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="266.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="532.0" fitWidth="363.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../photos/background_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="heading" fitHeight="150.0" fitWidth="237.0" layoutX="14.0" layoutY="-116.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../photos/heading.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="profilePic" fitHeight="45.0" fitWidth="53.0" layoutX="6.0" layoutY="6.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../photos/user_photo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mainButton" fitHeight="150.0" fitWidth="200.0" layoutX="35.0" layoutY="279.0" onMouseClicked="#switchToGame" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../photos/local_multiplayer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img1" fitHeight="150.0" fitWidth="200.0" layoutX="35.0" layoutY="211.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../photos/online_multiplayer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img2" fitHeight="150.0" fitWidth="200.0" layoutX="35.0" layoutY="347.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../photos/playWithFriends.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="watchvideo" fitHeight="56.0" fitWidth="69.0" layoutX="2.0" layoutY="532.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../photos/watchvideo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
